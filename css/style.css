@@ -519,6 +519,16 @@ a {
 }
 
 
+.subscribe-div {
+    margin-left: auto;
+}
+
+.form-sbsrb {
+    display: flex;
+    gap: 24px;
+
+}
+
 .subscribe-p {
     margin-bottom: 16px;
     font-weight: 500;
@@ -529,10 +539,6 @@ a {
 
 }
 
-.subscribe-form {
-    display: flex;
-    gap: 24px;
-}
 
 .input-subscribe {
     width: 264px;
