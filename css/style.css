@@ -675,10 +675,15 @@ a {
     fill: transparent;
 }
 
-.input-privacy:checked + .user-privacy .accept-checkbox {
-    background-color:#404bbf;
+:root {
+    --checkbox-background: #404bbf;
+    --checkbox-fill: #F4F4FD;
+}
+
+.input-privacy:checked+label .accept-checkbox {
+    background-color: var(--checkbox-background);
     border: none;
-    fill: #F4F4FD;
+    fill: var(--checkbox-fill);
 }
 
 .link-policy {
